@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    
+
+<head>        
+        
+        <!-- Meta -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+        
+        <!-- Title -->
+        <title>BookHandler</title>
+        <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CLato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        
+        <!-- Mobile Menu -->
+        <link href="css/mmenu.css" rel="stylesheet" type="text/css" />
+        <link href="css/mmenu.positioning.css" rel="stylesheet" type="text/css" />
+        
+        <!-- Stylesheet -->
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        
+    </head>
+
+
+    <body>
+        
+        <!-- Start: Header Section -->
+        <header id="header-v1" class="navbar-wrapper">
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-default">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="navbar-collapse hidden-sm hidden-xs">
+                                    <ul class="nav navbar-nav">
+                                        <li class="dropdown active">
+                                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="index.html">Home</a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="availability.html">Availability</a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="navigate.html">Navigate</a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="cart.html">Your Books</a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="#">What's New</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Journals</a></li>
+                                                <li><a href="#">Books</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle disabled" href="services.html">Your Requests</a></li>
+                                        <li class="dropdown"><div class="topbar-links">
+                                            <a href="signin.html" data-toggle="dropdown" class="dropdown-toggle disabled"><i class="fa fa-lock"></i>  Login</a>
+                                                </div></li>
+    
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mobile-menu hidden-lg hidden-md">
+                            <a href="#mobile-menu"><i class="fa fa-navicon"></i></a>
+                            <div id="mobile-menu">
+                                <ul>
+                                    <li class="mobile-title">
+                                        <h4>Navigation</h4>
+                                        <a href="#" class="close"></a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="availability.html">Availability</a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a data-toggle="dropdown" class="dropdown-toggle disabled" href="navigate.html">Navigate</a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a data-toggle="dropdown" class="dropdown-toggle disabled" href="cart.html">Your Books</a>
+                                        
+                                    </li>
+                                    <li class="dropdown">
+                                        <a data-toggle="dropdown" class="dropdown-toggle disabled" href="#">What's New</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Journals</a></li>
+                                            <li><a href="#">Books</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="services.html">Your Requests</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav></div>
+                                    
+                                
+                            </div>
+                        
+                    
+                
+            
+        </header> <!-- End: Header Section -->
+        
+        <!-- Start: Page Banner -->
+        <section class="page-banner services-banner">
+            <div class="container">
+                <div class="banner-header">
+                    <h1>Signin</h1>
+                    <span class="underline center"></span>
+                </div>
+                <div class="breadcrumb">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>Signin</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- End: Page Banner -->
+
+        <!-- Start: Cart Section -->
+        <div id="content" class="site-content">
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main">
+                    <div class="signin-main">
+                        <div class="container">
+                            <div class="woocommerce">
+                                <div class="woocommerce-login">
+                                    <div class="company-info signin-register">
+                                        <div class="col-md-5 col-md-offset-1 border-dark-left">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="company-detail bg-dark margin-left">
+                                                        <div class="signin-head">
+                                                            <h2>Sign in</h2>
+                                                            <span class="underline left"></span>
+                                                        </div>
+                                                        <form class="login" method="post" action="Serv11">
+                                                            <p class="form-row form-row-first input-required">
+                                                                <label>
+                                                                    <span class="first-letter">Username OR Library ID</span>  
+                                                                    <span class="second-letter">*</span>
+                                                                </label>
+                                                                <input type="text"  id="uname" name="uname" class="input-text">
+                                                             </p>
+                                                            <p class="form-row form-row-last input-required">
+                                                                <label>
+                                                                    <span class="first-letter">Password</span>  
+                                                                    <span class="second-letter">*</span>
+                                                                </label>
+                                                                <input type="password" id="passwrd" name="passwrd" class="input-text">
+                                                            </p>
+                                                            <div class="clear"></div>
+                                                            <div class="password-form-row">
+                                                                <p class="form-row input-checkbox">
+                                                                    <input type="checkbox" value="forever" id="rememberme" name="rememberme">
+                                                                    <label class="inline" for="rememberme">Remember me</label>
+                                                                </p>
+                                                                <p class="lost_password">
+                                                                    <a href="#">Lost your Pin?</a>
+                                                                </p>
+                                                            </div>
+                                                            <input type="submit" value="Login" name="login" class="button btn btn-default">
+                                                            <div class="clear"></div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 border-dark new-user">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="company-detail new-account bg-light margin-right">
+                                                        <div class="new-user-head">
+                                                            <h2>Verify New Account</h2><br>
+                                                            <span class="underline left"></span><br><br>
+                                                        </div>
+                                                        <form class="login" method="get">
+                                                            <p class="form-row form-row-first input-required">
+                                                                <label>
+                                                                    <span class="first-letter">Library ID</span>  
+                                                                    <span class="second-letter">*</span>
+                                                                </label>
+                                                                <input type="text" id="username1" name="username" class="input-text">
+                                                            </p>
+                                                            <p class="form-row input-required">
+                                                                <label>
+                                                                    <span class="first-letter">OTP</span>  
+                                                                    <span class="second-letter">*</span>
+                                                                </label>
+                                                                <input type="password" id="password1" name="password" class="input-text">
+                                                            </p>                                                                                
+                                                            <div class="clear"></div>
+                                                            <input type="submit" value="Signup" name="signup" class="button btn btn-default">
+                                                            <div class="clear"></div>
+                                                        </form> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <!-- End: Cart Section -->
+        
+        <footer class="site-footer">
+        <div class="container">
+            <div id="footer-widgets">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 widget-container">
+                        <div id="text-2" class="widget widget_text">
+                            <h3 class="footer-widget-title">About</h3>
+                            <span class="underline left"></span>
+                            <address>
+                                <div class="info">
+                                    <i class="fa fa-location-arrow"></i>
+                                    <span>Bachupally, Hyderabad 500090</span>
+                                </div>
+                                <div class="info">
+                                    <i class="fa fa-envelope"></i>
+                                    <span><a href="mailto:support@libraria.com">support@abc.com</a></span>
+                                </div>
+                                <div class="info">
+                                    <i class="fa fa-phone"></i>
+                                    <span><a href="tel:012-345-6789">+ 999999999</a></span>
+                                </div>
+                            </address>
+                        </div>
+                    </div>
+                    
+                    <div class="clearfix hidden-lg hidden-md hidden-xs tablet-margin-bottom"></div>
+                    <div class="col-md-2 col-sm-6 widget-container">
+                        <div id="text-4" class="widget widget_text">
+                            <h3 class="footer-widget-title">Timing</h3>
+                            <span class="underline left"></span>
+                            <div class="timming-text-widget">
+                                <time datetime="2017-02-13">Mon - Fri: 9 am - 8 pm</time>
+                                
+                                <time datetime="2017-02-13">Sat: 9 am - 4 pm</time>
+                                <time datetime="2017-02-13">Sun: 9 pm - 1 pm</time>
+                                
+                            </div>
+                        </div>			
+                    </div>
+                    
+                </div>
+            </div>                
+        </div>
+        <div class="sub-footer">
+            <div class="container">
+                    <div class="col-md-9 pull-right">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="availability.html">Availability</a></li>
+                            <li><a href="navigate.html">Navigate</a></li>
+                            <li><a href="cart.html">Your Books</a></li>
+                            <li><a href="#">What's New</a></li>
+                            <li><a href="services.html">Your Requests</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+    </footer>
+    <!-- End: Footer -->
+    
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mmenu.min.js"></script>
+    <script type="text/javascript" src="js/harvey.min.js"></script>
+    
+    
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+
+    
+    <script type="text/javascript" src="js/facts.counter.min.js"></script>
+
+    <script type="text/javascript" src="js/mixitup.min.js"></script>
+
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    
+    <script type="text/javascript" src="js/accordion.min.js"></script>
+    
+    <script type="text/javascript" src="js/responsive.tabs.min.js"></script>
+    
+    <script type="text/javascript" src="js/responsive.table.min.js"></script>
+    
+    <script type="text/javascript" src="js/masonry.min.js"></script>
+    
+    <script type="text/javascript" src="js/carousel.swipe.min.js"></script>
+    
+    <script type="text/javascript" src="js/bxslider.min.js"></script>
+    
+    <script type="text/javascript" src="js/main.js"></script>
+    
+
+
+</body></html>
